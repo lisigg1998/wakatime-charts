@@ -4,7 +4,7 @@ set -e
 
 cd /app
 
-echo ${INPUT_GITHUB_TOKEN}
+echo ${INPUT_BRANCH_NAME}
 
 REMOTE_REPOSITORY="https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
